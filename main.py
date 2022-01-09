@@ -1,6 +1,6 @@
-from sudoku import suduku
+from sudoku import sudoku
 
-obj = suduku()
+obj = sudoku()
 
 for item in range(0,9):
     obj.setLineData(item, input("Line"+str(item)+": "))
